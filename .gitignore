@@ -1,0 +1,24 @@
+# ignora pastas do VS Code
+.vscode/
+
+# ignora arquivos do sistema
+*.log
+*.tmp
+*.cache
+
+# ignora configurações pessoais
+*.json
+!/package.json
+
+# ignora tudo da pasta do usuário
+C:/Users/barba/*
+
+# ignora banco de dados local
+*.db
+
+# ignora node_modules (se for projeto web)
+node_modules/
+
+# ignora builds
+dist/
+build/
